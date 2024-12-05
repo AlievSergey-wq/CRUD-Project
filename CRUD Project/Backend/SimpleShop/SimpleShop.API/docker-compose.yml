@@ -1,0 +1,10 @@
+﻿version: "3.9"
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: "itemshopdb"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "2248"
+    ports:
+      - "5432:5432"
